@@ -1,5 +1,5 @@
 Package: domorrr
-Title: Interact with Domo's API. 
+Title: Interact with Domo's API
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jimmy",

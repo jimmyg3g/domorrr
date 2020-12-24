@@ -74,7 +74,7 @@ fnFixClasses <- function(data, these_fields) {
 
 #' Query Dataset
 #'
-#' Query a dataset by dataset ID with SQL.
+#' Query a dataset by dataset ID with SQL. SQL dialect is MySQL
 #'
 #' @seealso \url{https://developer.domo.com/docs/dataset-api-reference/dataset}
 #'
@@ -85,7 +85,6 @@ fnFixClasses <- function(data, these_fields) {
 #' @export
 #'
 #' @examples
-#' SQL dialect is MySQL (i think)
 #' SELECT * FROM table LIMIT 10
 #' SELECT DISTINCT `Device Category`, `Web Property`, `Account` FROM table
 #' SELECT SUM(Pageviews) pv, sum(Sessions) sessions FROM table GROUP BY Hostname
